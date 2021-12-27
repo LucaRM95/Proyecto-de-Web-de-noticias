@@ -1,0 +1,64 @@
+.news-section{
+    background-color: white;
+}
+
+.header{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(../img/news-bg.jpg);
+    /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* height: 20rem; */
+}
+
+.header .header-text{
+    color: white;
+    /* height: 20rem; */
+}
+
+.header .header-text img{
+    width: 25%; 
+}
+
+.aside{
+    background-color: rgba(47, 23, 15, 0.65);
+}
+
+.card-news{
+    width: 65%;
+    /* background-color: sandybrown; */
+}
+
+.card-news img{
+    border-radius: 2px;
+    box-shadow: 0 0 6px 4px #444;
+    width: -webkit-fill-available;
+    height: 12rem;
+}
+
+.card-text{
+    padding: 1rem;
+}
+
+.card-text strong{
+    color: rgb(90, 87, 87);
+}
+
+footer{
+    color: white;
+}
+
+.u-list-styles{
+    width: 45%;
+}
+.u-list-styles li{
+    list-style: none;
+}
+.u-list-styles li a{
+    color: white;
+    text-decoration: none;
+}
+.u-list-styles li a:hover{
+    color: rgb(161, 160, 160);
+    transition: 200ms all;
+}
